@@ -47,20 +47,4 @@ gsap.utils.toArray(".helpdesk-card").forEach((card, i) => {
   });
 });
 
-document.querySelectorAll(".faq-question").forEach((question) => {
-  question.addEventListener("click", () => {
-    const icon = question.querySelector("i");
-    if (icon) icon.classList.toggle("rotate");
-  });
-});
 
-gsap.from("footer", {
-  scrollTrigger: {
-    trigger: "footer",
-    start: "top 95%"
-  },
-  opacity: 0,
-  y: 50,
-  duration: 1.2,
-  ease: "power2.out"
-});
