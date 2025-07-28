@@ -35,9 +35,12 @@ a{
 .header-one .phone{
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     gap: 5px;
     color: #fff;
+}
+.tagline{
+    font-size: 0.8rem;
 }
 .header-one .phone p{
     color: #fff;
