@@ -39,6 +39,9 @@ a{
     gap: 5px;
     color: #fff;
 }
+.header-one .phone p{
+    color: #fff;
+}
 .header-two{
     padding-inline: 10px;
     width: 100%;
@@ -409,6 +412,9 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.footer-one .footer-phone p{
+    color: #fff;
 }
 .footer-two a{
     color: #fff;
